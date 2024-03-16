@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiner</title>
+</head>
+<body>
+    <div class="circle">
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <div>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        body{
+            height: 100vh;
+            width: 100vh;
+            display: flex;
+            background-color: black;
+            justify-content: center;
+            align-items: center;
+        }
+        .circle{
+            height: 200px;
+            width: 200px;
+            position: relative;
+            border-radius: 50%;
+        }
+        div{
+            width: 100px;
+            box-sizing: border-box;
+            border-radius: 200%;
+            border-top: 0.2em solid cyan;
+            border-bottom: 0.2em solid orange;
+            border-left: 0.2em solid tomato;
+            border-right: 0.2em solid greenyellow;
+            animation: spin 10s linear infinite;
+        }
+        @keyframes spin{
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg) ;
+            }
+        }
+    </style>
+    <div class="circle">
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <div>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        body{
+            height: 200vh;
+            width: 200vh;
+            display: flex;
+            background-color: black;
+            justify-content: center;
+            align-items: center;
+        }
+        .circle{
+            height: 200px;
+            width: 200px;
+            position: relative;
+            border-radius: 200%;
+        }
+        div{
+            width: 200px;
+            box-sizing: border-box;
+            border-radius: 200%;
+            border-top: 0.2em solid cyan;
+            border-bottom: 0.2em solid orange;
+            border-left: 0.2em solid tomato;
+            border-right: 0.2em solid greenyellow;
+            animation: spin 10s linear infinite;
+        }
+        @keyframes spin{
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg) ;
+            }
+        }
+    </style>
+</body>
+</html>
